@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Judechuks, 4/12/2022">
+  <meta name="revised" content="Judechuks, 8/12/2022">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../assets/fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Poppins Font Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Javascript -->
+  <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <main>
+
+    <aside>
+      <nav>
+      <a href="#" class="nav-circle active-circle"> <span>Home</span> </a>
+      <a href="#about" class="nav-circle"> <span>About</span> </a>
+      <a href="#work" class="nav-circle"> <span>Work</span> </a>
+      <a href="#clients" class="nav-circle"> <span>Clients</span> </a>
+      <a href="#contact" class="nav-circle"> <span>Contact</span> </a>
+      </nav>
+    </aside>
+
+    <div class="main-page">
+    <!-- Header -->
+    <header>
+      <div class="logo"> <a href="#"><span>M</span>onye <span>J</span>ude</a> </div> 
+      <nav>
+        <ul>
+          <li> <a href="#">Home</a> </li>
+          <li> <a href="#about">About</a> </li>
+          <li> <a href="#work">Work</a> </li>
+          <li> <a href="#clients">Clients</a> </li>
+          <li> <a href="#contact" class="cta last-link">Contact</a> </li>
+        </ul>
+        <div class="hamburger">
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="#" class="home">
+      <div class="row-spacing">
+        <div class="row">
+          <article class="col-1">
+            <div class="hero-intro">
+              <h1 class="intro-msg">Welcome <br>to my portfolio. <br> Building beautiful web experience is my passion.</h1>
+              <a href="#work" class="cta">
+                <i class="fa fa-eye"></i> My Works
+              </a>
+            </div>
+          </article>
+          <article class="col-2">
+              <img src="./img/man.png" alt="Hero Image">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="row-spacing">
+        <h1 class="section-title">About Me</h1>
+            <p class="section-intro-msg">I'm a web designer and developer, with the intent of providing quality web designs coupled with wonderful user interfaces that will lead to best user experience which in turn will increase your productivity and end up reaching out to more customers.</p>
+        <div class="row">
+          <article class="col-1">
+            <div class="img-container">
+              <img src="img/user.png" alt="My Image">
+            </div>
+          </article>
+          <article class="col-2">
+            <article class="col-2-container">
+              <!-- btn container -->
+              <div class="tab-container">
+                <button class="tab-btn active" data-id="skills">Skills</button>
+                <button class="tab-btn" data-id="experience">Experience</button>
+                <button class="tab-btn" data-id="education">Education</button>
+              </div>
+              <section class="col-2-content">
+              <!--Tab-1 Content-->
+              <div class="tab-content active" id="skills">
+                <h3>Skills</h3>
+                <ul>
+                 <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                 <li><span>Web Design & Development</span><br>Web App Development</li>
+                 <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                 <li><span>Software Development</span><br>Building Standalone desktop Apps/Programs</li>
+                </ul>
+              </div>
+              <!--End of Tab-1 Content-->
+              <!--Tab-2 Content-->
+              <div class="tab-content" id="experience">
+                <h3>Experience</h3>
+                <ul>
+                 <li><span>2022 - Current</span><br>UI/UX Design Training at Edufun</li>
+                 <li><span>2020 - 2021</span><br>C++ Programming</li>
+                 <li><span>2017 - 2019</span><br>Web development & VB Programming.</li>
+                 <li><span>2015 - 2016</span><br>Web Design & Development at Helping Hands Int.</li>
+                 <li><span>2011 - 2012</span><br>Internship at New Concept LTD..</li>
+                </ul>
+              </div>
+              <!--End of Tab-2 Content-->
+              <!--Tab-3 Content-->
+              <div class="tab-content" id="education">
+                <h3>Education</h3>
+                <ul>
+                 <li><span>2022</span><br>HND in Computer Science from Fed. Poly Auchi</li>
+                 <li><span>2021</span><br>UI/UX Design Training at ET Simplilearn</li>
+                 <li><span>2021</span><br>Frontend Development Training at Udemy</li>
+                 <li><span>2019</span><br>ND in Computer Science from Covenant Poly Aba</li>
+                </ul>
+              </div>
+              <!--End of Tab-3 Content-->
+            </section>  
+            </article>
+            <nav class="cta-container">
+              <a href="img/my-cv.pdf" class="cta" target="_blank"><i class="fa fa-eye"></i> My CV</a>
+              <a href="img/my-cv.pdf" class="cta" download><i class="fa fa-download"></i> My CV</a>
+            </nav>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work">
+      <div class="row-spacing">
+        <h1 class="section-title">My Works</h1>
+            <p class="section-intro-msg">
+              I've had the pleasure of working with multiple fortune companies, designing and implementing beautiful webpages. Some of my works are shown below.
+            </p>
+            <div class="projects">
+            <article>
+              <a href="#">
+                <img src="img/work-1.png" alt="Project 1">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-2.png" alt="Project 2">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-3.png" alt="Project 3">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-4.jpg" alt="Project 4">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-1.png" alt="Project 5">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-2.png" alt="Project 6">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-3.png" alt="Project 7">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-4.jpg" alt="Project 8">
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img src="img/work-1.png" alt="Project 9">
+              </a>
+            </article>
+          </div>
+         <nav class="cta-container">
+          <a href="#" class="cta">See More</a>
+         </nav>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section id="clients">
+      <div class="row-spacing">
+        <h1 class="section-title">Clients</h1>
+        <p class="section-intro-msg">Some of the companies I've worked for.</p>
+        <div class="row">
+          <article class="client row">
+            <div class="client-icon">
+              <i class="fab fa-apple"></i>
+            </div>
+            <div class="client-details">
+              <h5>Apple, inc.</h5>
+              <div class="badge-group">
+                <div class="badge">UI/UX</div>
+                <div class="badge">Frontend Development</div>
+              </div>
+              <p>I've worked with Apple inc., where I worked as UI/UX and Frontend developer and it was an awesome experience working there.</p>
+            </div>
+          </article>
+          <article class="client row">
+            <div class="client-icon">
+              <i class="fab fa-apple"></i>
+            </div>
+            <div class="client-details">
+              <h5>Apple, inc.</h5>
+              <div class="badge-group">
+                <div class="badge">UI/UX</div>
+                <div class="badge">Frontend Development</div>
+              </div>
+              <p>I've worked with Apple inc., where I worked as UI/UX and Frontend developer and it was an awesome experience working there.</p>
+            </div>
+          </article>
+          <article class="client row">
+            <div class="client-icon">
+              <i class="fab fa-apple"></i>
+            </div>
+            <div class="client-details">
+              <h5>Apple, inc.</h5>
+              <div class="badge-group">
+                <div class="badge">UI/UX</div>
+                <div class="badge">Frontend Development</div>
+              </div>
+              <p>I've worked with Apple inc., where I worked as UI/UX and Frontend developer and it was an awesome experience working there.</p>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="row-spacing">
+        <h1 class="section-title">Contact Me</h1>
+        <p class="section-intro-msg">Feel free to contact me anytime, through any of the platform below, I'm always available.</p>
+        <div class="row">
+          <article class="col-1">
+            <form action="">
+              <label for="name">Name</label>
+              <input type="text" name="" id="name" placeholder="Your Name" required>
+              <label for="contact">Email or Phone</label>
+              <input type="text" name="" id="contact" placeholder="Your Email or Phone Number" required>
+              <label for="msg">Message</label>
+              <textarea name="" id="msg" cols="30" rows="10" placeholder="Your Message" required></textarea>
+              <button type="submit" class="cta">Send Message</button>
+            </form>
+          </article>
+          <article class="col-2">
+            <p class="flex"><i class="fa fa-phone-square"></i> <a href="tel:+2348144638926">+2348144638926</a> </p>
+            <p class="flex"><i class="fa fa-envelope"></i> <a href="mailto:judechuks26@gmail.com">Judechuks26@gmail.com</a> </p>
+
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    </div>
+
+  </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Copyright &copy; 2022 Judechuks. All rights reserved. </p>
+    </footer>
+</body>
+</html>
